@@ -14,6 +14,7 @@ public class Speak {
     @GET
     @Path("/hello")
     public Greet sayHello() {
+        // Hello
         Greet hello = new Greet();
         hello.setName("there!");
         return hello;
