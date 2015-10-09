@@ -13,6 +13,6 @@ public class SpeakTest {
     @org.junit.Test
     public void testSaySpecificHello() throws Exception {
         Speak speak = new Speak();
-        assertEquals("Mike", speak.saySpecificHello("Mike").getName());
+        assertEquals("Mike1", speak.saySpecificHello("Mike").getName());
     }
 }
